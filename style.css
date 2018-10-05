@@ -1,0 +1,223 @@
+.img_header {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 70px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: #677273;
+	height: 250px;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+#index h1 {
+	position: relative;
+	text-align: center;
+	bottom: 300px;
+	color: white;
+	text-shadow: black 1px 0 10px;
+	font-size: 45px;
+	text-decoration: underline overline;
+	font-family: 'Monoton', cursive;
+}
+
+.navbar {
+	height: 35px;
+	width: 100%;
+	background-color: #555d5e;
+	position: relative;
+	text-align: center;
+	text-decoration-color: white;
+	padding-top: 17.5px;
+}
+
+.white_link {
+	color: white;
+	text-decoration-color: transparent;
+	bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.sub_h1 {
+	position: relative;
+	text-align: center;
+	bottom: 325px;
+	color: white;
+	font-size: 25px;
+	text-shadow: black 1px 0 10px;
+}
+
+.huitre_logo {
+	position: relative;
+	bottom: 70px;
+	width: 125px;
+	height: 125px;
+	transform: rotate(-70deg);
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+footer {
+	position: absolute;
+	background-color: #677273;
+	height: 150px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	top: 800px;
+}
+
+.bottom_bar {
+	height: 35px;
+	width: 100%;
+	background-color: #555d5e;
+	position: relative;
+	text-align: center;
+	padding-bottom: 17.5px;
+}
+
+.social_media {
+	position: relative;
+	color: white;
+	bottom: -17.5px;
+	font-weight: bold;
+}
+
+.social_media_bar {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.logo_social_media {
+	width: 75px;
+	height: 75px;
+	padding-right: 50px;
+	padding-left: 50px;
+
+}
+
+.left_side_text {
+	position: absolute;
+	background-color: #E1E6FA;
+	margin-right: 0px;
+	padding: 0px;
+	height: 500px;
+	width: 50%;
+	border-style: solid;
+	border-top-width: 10px;
+	border-right-width: 5px;
+	border-left-width: 0px;
+	border-color: #677273;
+}
+
+.right_side_img {
+	position: absolute;
+	width: 781px;
+	height: 500px;
+	border-style: solid;
+	border-left-width: 5px;
+	border-top-width: 10px;
+	left: 797px;
+	top: 303px;
+	border-right-width: 0px;
+	border-color: #677273;
+
+}
+
+.a_propos {
+	text-align: center;
+	margin: auto;
+	margin-top: 60px;
+	width: 200px;
+	color: white;
+	text-shadow: black 1px 0 10px;
+	box-shadow: black 1px 0 10px;
+	border: solid;
+}
+
+.desc {
+	font-size: 35px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.bold_text {
+	font-weight: bold;
+	color: white;
+	text-shadow: black 1px 0 10px;
+	text-decoration: underline;
+}
+
+/* Formulaire de contact */
+
+.blockprincipal {
+	display: flex;
+	justify-content: space-around;
+}
+
+.block1{
+	border: solid;
+	border-width: 0.5px;
+	background-color: rgba(223, 228, 234,1.0);
+}
+
+.block2 {
+	border: solid;
+	border-width: 0.5px;
+	background-color: rgba(223, 228, 234,1.0);
+}
+
+.label {
+	background-color: rgba(164, 176, 190,0.5);
+	border: solid;
+	border-width: 0.5px;
+
+}
+
+.block3 {
+	width: 92.5%;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 0.5px;
+	background-color: rgba(223, 228, 234,1.0);
+}
+
+.width_label {
+	width: 35%;
+}
+
+@media (min-width: 992px){
+	.block1 {
+		max-width: 40%!important;
+	}
+
+	.block2 {
+		max-width: 40%!important;
+	}
+}
+
+.select_width {
+	width: 10.5%;
+	margin-left: 31px;
+}
+
+.textarea_margin {
+	margin-right: 2rem;
+	margin-left: 2rem;
+	height: 150px;
+}
+
+.boutton_margin {
+	margin-left: 2rem;
+	background-color: rgba(164, 176, 190,0.5);
+}
