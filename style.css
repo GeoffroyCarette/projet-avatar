@@ -167,13 +167,13 @@ footer {
 
 .block1{
 	border: solid;
-	border-width: 0.5px;
+	border-width: 1px;
 	background-color: rgba(223, 228, 234,1.0);
 }
 
 .block2 {
 	border: solid;
-	border-width: 0.5px;
+	border-width: 1px;
 	background-color: rgba(223, 228, 234,1.0);
 }
 
@@ -188,7 +188,7 @@ footer {
 	width: 92.5%;
 	box-sizing: border-box;
 	border: solid;
-	border-width: 0.5px;
+	border-width: 1px;
 	background-color: rgba(223, 228, 234,1.0);
 }
 
@@ -220,4 +220,9 @@ footer {
 .boutton_margin {
 	margin-left: 2rem;
 	background-color: rgba(164, 176, 190,0.5);
+}
+
+.ocean_background {
+	background: url(./media/ocean_background.jpg);
+	background-size: 100%;
 }
