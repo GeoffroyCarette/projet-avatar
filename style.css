@@ -165,7 +165,7 @@ footer {
 	justify-content: space-around;
 }
 
-.block1{
+.block1 {
 	border: dashed;
 	border-width: 1px;
 	font-family: 'Montserrat', sans-serif;
@@ -178,7 +178,7 @@ footer {
 }
 
 .label {
-	background-color: rgba(164, 176, 190,0.6);
+	background-color: rgba(164, 176, 190, 0.6);
 	border: solid;
 	border-width: 0.5px;
 
@@ -196,13 +196,25 @@ footer {
 	width: 40%;
 }
 
-@media (min-width: 992px){
+@media (min-width: 768px) and (max-width: 991px) {
 	.block1 {
-		max-width: 40%!important;
+		max-width: 89.5% !important;
 	}
 
 	.block2 {
-		max-width: 40%!important;
+		max-width: 89.5% !important;
+		margin-top: 50px;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.block1 {
+		max-width: 40% !important;
+	}
+
+	.block2 {
+		max-width: 40% !important;
 	}
 }
 
@@ -219,7 +231,7 @@ footer {
 
 .boutton_margin {
 	margin-left: 2rem;
-	background-color: rgba(164, 176, 190,0.5);
+	background-color: rgba(164, 176, 190, 0.5);
 }
 
 .ocean_background {
@@ -230,7 +242,7 @@ footer {
 }
 
 .bg_container {
-	background-color: rgba(245, 246, 250,0.8);
+	background-color: rgba(245, 246, 250, 0.8);
 	padding-bottom: 3.5rem;
 	border-radius: 5%;
 
