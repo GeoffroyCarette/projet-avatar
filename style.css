@@ -258,3 +258,11 @@ footer {
 	font-size: 5rem;
 	letter-spacing: -5px;
 }
+
+.swal-button {
+	background-color: rgb(164, 176, 190);;
+}
+
+.swal-button:active {
+	background-color: grey;
+}
